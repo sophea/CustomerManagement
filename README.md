@@ -28,19 +28,24 @@ How to run in local
 
 2 : Go to project root directory
 
-3 : Install dependencies
+3 : Set up MySQL database
+
+	- Create database name: `customer-managment`
+	- Import existing database from root directory of project: `customer-managment.sql`
+
+4 : Install dependencies
 
 	mvn install
 	
-4 : Enable open project in Eclipse
+5 : Enable open project in Eclipse
 
 	mvn eclipse:eclipse
 
-5 : Start web server to run project
+6 : Start web server to run project
 
 	mvn jetty:run
 
-6 : Open browser and type this URL `http://localhost:8080/` to see the welcome screen
+7 : Open browser and type this URL `http://localhost:8080/` to see the welcome screen
 
 Cheers
 ------
