@@ -12,5 +12,6 @@
 .project
 .settings/
 target/
+!/target/nguonchhay_touch-evening-assignment.war
 tomcat_server.log
 
